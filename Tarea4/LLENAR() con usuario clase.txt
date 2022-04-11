@@ -1,0 +1,18 @@
+Usuario usuario1 = new Usuario();
+    Usuario usuario2 = new Usuario();
+    Usuario usuario3 = new Usuario();
+    Usuario usuario4 = new Usuario();
+    Usuario usuario5 = new Usuario();
+    Usuario usuario6 = new Usuario();
+
+String columna[] = {"Nombre","Apellido","Usuario", "E-mail","Telefono"};
+    String datos[][] = {{usuario1.nombre,usuario1.apellido,usuario1.usuario,usuario1.email,usuario1.telefono},
+            {usuario2.nombre,usuario2.apellido,usuario2.usuario,usuario2.email,usuario2.telefono},
+            {usuario3.nombre,usuario3.apellido,usuario3.usuario,usuario3.email,usuario3.telefono},
+            {usuario4.nombre,usuario4.apellido,usuario4.usuario,usuario4.email,usuario4.telefono},
+            {usuario5.nombre,usuario5.apellido,usuario5.usuario,usuario5.email,usuario5.telefono},
+            {usuario6.nombre,usuario6.apellido,usuario6.usuario,usuario6.email,usuario6.telefono}};
+    DefaultTableModel modelo = new DefaultTableModel(datos, columna);
+    tabla.setModel(modelo);
+
+C:\Program Files (x86)\MySQL\Connector J 8.0\mysql-connector-java-8.0.28.jar
